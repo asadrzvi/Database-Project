@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Coog Muzik</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="container">
+        <div class="nav-wrapper">
+			<div class="left-side">
+				<div class="nav-link-wrapper">
+					<a href="index.html">Home</a>
+				</div>
+				<div class="nav-link-wrapper">
+					<a href="about.html">About</a>
+				</div>
+				<div class="nav-link-wrapper">
+					<a href="listening.html">Start Listening</a>
+				</div>
+			</div>
+			<div class="middle">
+				<div class="logo">
+					<h1>COOG</h1>
+					<a href="index.html">
+						<img src="images/logo.png" width="200" height="210">
+					</a>
+					<h1>MUZIK</h1>
+				</div>
+			</div>
+
+			<div class="right-side">
+				<div class="nav-link-wrapper">
+					<a href="login.php">Login</a>
+				</div>
+				<div class="nav-link-wrapper">
+					<a href="register.php">Register</a>
+				</div>
+				<div class="nav-link-wrapper">
+					<a href="registerartist.html">Register as artist</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="sub-heading">
+			<p style="padding: 30px; font-family: cursive;">
+				Hello and welcome to coog muzik. We are a music service for UH students, faculty and alumni. Simply provide your UH ID in our registration window to start listening.
+			</p>
+			<a href="register.php"><button class=myButton type="button">Register</button> </a>
+			<form action="process.php" method="POST">
+				<p style="font-size: 16px; margin-left: 50px; color: grey">
+					Already signed up?
+				</p>
+				<p>
+					<label>Username:</label>
+					<input type="text" id="user" name="user">
+				</p>
+				<p>
+					<label>Password:</label>
+					<input type="password" id="pass" name="pass">
+				</p>
+				<p>
+					<input type="submit" class="myButton" value="Login">
+				</p>
+			</form>
+		</div>
+	</div>
+</body>
+<footer>
+	<p>
+		Created by Asad, Phuoc, Carlos, Johnny, & Lizandro
+	</p>
+</footer>
+</html>

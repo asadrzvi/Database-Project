@@ -1,0 +1,63 @@
+
+body {
+	background-image: url("images/wallpaper.jpeg");
+	background-size: cover;
+ 	background-color: #cccccc;
+ 	height: 100vh;
+  padding:0;
+  margin:0;
+  font-family: Times;
+}
+.result-container
+{
+    with: 1000px;
+    background-color: #F2F3F4
+		
+    padding: 30px;
+}
+.result-box
+{
+  padding-bottom: 30px;
+}
+.menu>ul>li>a{
+	text-align: center;
+	margin-left:250px;
+}
+
+.menu2>ul>li>a{
+  text-align: center;
+  margin-left:225px;
+}
+
+.menu2 {
+  justify-content: space-between;
+  text-align: center;
+}
+
+.menu {
+	justify-content: space-between;
+	text-align: center;
+}
+
+input
+{
+  padding: 0px 20px;
+  width: 400px;
+  height: 40px;
+  font-size: 24px;
+}
+
+button
+{
+  width: 100x;
+  height: 45px;
+  font-size: 24px;
+}
+
+footer {
+	background-color: linear-gradient(to bottom, white 20%, black 100%);;
+	color: white;
+	padding: 10px 10px ;
+	position: fixed;
+    bottom: 0;
+}
