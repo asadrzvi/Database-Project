@@ -1,0 +1,133 @@
+/* Master */
+
+body {
+	margin: 20px;
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:linear-gradient(to bottom, white 50%, black 100%);
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+h1	{
+	font-family: Impact, fantasy;
+}
+
+.welcome
+{
+    font-family: Impact, fantasy;
+    color: white;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+/* Nav Style */
+.nav-wrapper{
+	display: flex;
+	justify-content: space-between;
+	padding: 38px;
+}
+
+.left-side {
+	display: flex;
+}
+
+.right-side {
+	display: flex;
+}
+
+.nav-wrapper>.left-side>div{
+	 margin-right: 20px;
+	 font-size: 0.9em;
+	 text-transform: uppercase;
+}
+
+.nav-wrapper>.middle>div {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: black;
+	text-align: center;
+	font-family: sans-serif;
+	text-decoration: underline black;
+}
+
+.nav-wrapper>.middle>div:hover {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: red;
+	text-align: center;
+	text-decoration: underline red;
+}
+
+.nav-wrapper>.right-side>div{
+	 margin-right: 20px;
+	 font-size: 0.9em;
+	 text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+	height: 22px;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+	color: #8a8a8a;
+	text-decoration: none;
+	transition: color 0.5s;
+
+}
+
+.nav-link-wrapper:hover {
+	 border-bottom: 1px solid rgba(255, 0, 0, 0.63);
+}
+
+.nav-link-wrapper a:hover {
+	color: black;
+}
+
+.sub-heading {
+	font-size: 16px;
+	text-align: center;
+	background-color: white;
+	font-family: Times;
+	margin: 0 auto;
+	border-radius:6px;
+	border:1px solid #d83526;
+    padding: 60px;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+	background-color:#fe1a00;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+	margin-bottom: 30px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ce0100 20%, #fe1a00 100%);
+	background-color:#ce0100;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+footer {
+	background-color: linear-gradient(to bottom, white 20%, black 100%);;
+	color: #fe1a00;
+	text-align: center;
+	padding: 10px 10px ;
+}
