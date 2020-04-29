@@ -9,6 +9,5 @@ Website: spammy.epizy.com/
 -Triggers
 	1) "CountTracks" in line 212 from MySQL_Dump.sql from github,  auto increment amount of tracks inside a albums/palylist when ever tracks added to one
 	https://infinityfree.net/ > Client Area > Log in with credentials > Manage > Control Panel > phpMyAdmin (under DATABASES) > Connect now! (epiz_25317203_MLDB) > playlist or albums to see counter increment 	
-
 	2) "RegisterNewArtist" in line 326 from MySQL_Dump.sql from github, RegisterNewArtist changes account from USER to ARTIST, they now have a My Music tab and 
 	have privliges to add tracks and make albums, as well as his reports which is all the way at the bottom
